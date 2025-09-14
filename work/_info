@@ -2,6 +2,11 @@ m255
 K4
 z2
 Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
 !s11f vlog 2022.4 2022.10, Oct 18 2022
 13
 !s112 1.1
@@ -9,34 +14,324 @@ Z0 !s99 nomlopt
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/questasim64_2022.4/examples
+Z1 dC:/questasim64_2022.4/examples
 T_opt
-!s110 1757841973
-VTF`ijj@zj3ZSDTmRD=0Y;1
-04 10 4 work decoder_tb fast 0
-=1-c8d9d285e857-68c68a33-3e1-3e08
+!s110 1757877329
+V^[73?B0KXGaB8ENYOIzh:0
+04 10 4 work count_1_tb fast 0
+=1-c8d9d285e857-68c71451-233-5684
 R0
-!s12b OEM100
-!s124 OEM100
-o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+Z2 !s12b OEM100
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
 n@_opt
-OL;O;2022.4;75
+Z6 OL;O;2022.4;75
+R1
+T_opt1
+!s110 1757878241
+V9h365gh6F0MMk1<lVV0Y43
+04 27 4 work arithmetic_right_shifter_tb fast 0
+=1-c8d9d285e857-68c717e0-2b3-24d4
+R0
+R2
+R3
+R4
+R5
+n@_opt1
+R6
+R1
+T_opt2
+!s110 1757878716
+VlJ;T1O50jn741=]I6]_5G3
+04 11 4 work bin2gray_tb fast 0
+=1-c8d9d285e857-68c719bb-2f3-4404
+R0
+R2
+R3
+R4
+R5
+n@_opt2
+R6
+vadder_4
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1757876968
+!i10b 1
+!s100 EU[mZ7UH4K0IEK;b=hgJ^2
+IVK5N2R5nlbWZzoW=>OUPU0
+S1
+Z9 dC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer
+w1757777584
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/adder_4.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/adder_4.sv
+!i122 15
+L0 1 7
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2022.4;75
+r1
+!s85 0
+31
+Z12 !s108 1757876968.000000
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/adder_4.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/adder_4.sv|
+!i113 0
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+varithmetic_right_shifter
+R7
+!s110 1757877834
+!i10b 1
+!s100 IWN5I>T]ENnzQXbPGM7OT2
+IZNl0KE_86A3b600F=WOc`2
+S1
+R9
+w1757877823
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter.sv
+!i122 23
+L0 1 18
+R10
+R11
+r1
+!s85 0
+31
+!s108 1757877834.000000
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter.sv|
+!i113 0
+R13
+R5
+varithmetic_right_shifter_tb
+R7
+!s110 1757878190
+!i10b 1
+!s100 X5VPniIee8BeQcFfUCBDm0
+IBLA70lU[WfzCd02@demT<0
+S1
+R9
+w1757878176
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter_tb.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter_tb.sv
+!i122 24
+Z14 L0 1 27
+R10
+R11
+r1
+!s85 0
+31
+!s108 1757878190.000000
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter_tb.sv|
+!i113 0
+R13
+R5
+vbin2bcd
+R7
+Z15 !s110 1757876333
+!i10b 1
+!s100 fII0V]Jz;R8_3zmo]oCDP0
+I@WzM?h[C?6d^mGZ:UVNd@2
+S1
+R9
+w1757876320
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd.sv
+!i122 6
+L0 1 33
+R10
+R11
+r1
+!s85 0
+31
+Z16 !s108 1757876333.000000
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd.sv|
+!i113 0
+R13
+R5
+vbin2bcd_tb
+R7
+R15
+!i10b 1
+!s100 EK8CLf9?VYj_eazGULRK93
+IJ]7DEMKBoSEClGR^EJLnj1
+S1
+R9
+w1757845598
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd_tb.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd_tb.sv
+!i122 7
+L0 1 34
+R10
+R11
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd_tb.sv|
+!i113 0
+R13
+R5
+vbin2gray
+R7
+Z17 !s110 1757878696
+!i10b 1
+!s100 ;Yd^`j1JAn]WzMDJP1:c[3
+I_0PcYM@RJ03lge^OUme2<1
+S1
+R9
+w1757877501
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray.sv
+!i122 25
+Z18 L0 1 30
+R10
+R11
+r1
+!s85 0
+31
+Z19 !s108 1757878696.000000
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray.sv|
+!i113 0
+R13
+R5
+vbin2gray_tb
+R7
+R17
+!i10b 1
+!s100 ;N]zF`B2<M_c=kkTKngS=1
+Iio8WCk1fKZ=IP36135jNg2
+S1
+R9
+w1757845649
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray_tb.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray_tb.sv
+!i122 26
+Z20 L0 1 36
+R10
+R11
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray_tb.sv|
+!i113 0
+R13
+R5
+vcount_1
+R7
+Z21 !s110 1757877288
+!i10b 1
+!s100 z:LX5g7PM[;2C``ecOVIe1
+IYNR`f3oN6dHFgRal_?VOc0
+S1
+R9
+w1757779697
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1.sv
+!i122 17
+R18
+R10
+R11
+r1
+!s85 0
+31
+Z22 !s108 1757877288.000000
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1.sv|
+!i113 0
+R13
+R5
+vcount_1_tb
+R7
+R21
+!i10b 1
+!s100 G9n9l5JTLPa>n2oLMVWFI1
+I8=OgeNoP@Sl?Q8f_0B4^01
+S1
+R9
+w1757845639
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1_tb.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1_tb.sv
+!i122 18
+R20
+R10
+R11
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1_tb.sv|
+!i113 0
+R13
+R5
+vcsa_8
+R7
+!s110 1757876951
+!i10b 1
+!s100 2>C`boWdR=F;V6TRG]Rlk1
+I=g3`YzGl9S=c=E^O8ckJO1
+S1
+R9
+w1757876741
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8.sv
+!i122 14
+L0 1 31
+R10
+R11
+r1
+!s85 0
+31
+!s108 1757876951.000000
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8.sv|
+!i113 0
+R13
+R5
+vcsa_8_tb
+R7
+R8
+!i10b 1
+!s100 C87Z<^LFELQP4^cMTdeP>0
+I>U29NA2SdUoCAhH=[4=i81
+S1
+R9
+w1757876804
+8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8_tb.sv
+FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8_tb.sv
+!i122 16
+R14
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8_tb.sv|
+!i113 0
+R13
+R5
 vdecoder
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1757841928
+R7
+Z23 !s110 1757841928
 !i10b 1
 !s100 RX5X3[RBcI[QWnLhc?h`32
 IIY;5A3:S?kH^`mUOR_4BG3
 S1
-Z4 dC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer
+R9
 w1757777588
 8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder.sv
 FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder.sv
 !i122 3
 L0 1 12
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 OL;L;2022.4;75
+R10
+R11
 r1
 !s85 0
 31
@@ -44,23 +339,23 @@ r1
 !s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder.sv|
 !i113 0
-Z7 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+R13
+R5
 vdecoder_tb
-R2
-R3
+R7
+R23
 !i10b 1
 !s100 OALG2Z63EBfE8d`4^QBiT1
 IDFz_oC?NeRiaT;mWclWoO1
 S1
-R4
+R9
 w1757841922
 8C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder_tb.sv
 FC:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder_tb.sv
 !i122 4
 L0 2 33
-R5
-R6
+R10
+R11
 r1
 !s85 0
 31
@@ -68,5 +363,5 @@ r1
 !s107 C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder_tb.sv|
 !i113 0
-R7
-R1
+R13
+R5

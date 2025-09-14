@@ -1,0 +1,21 @@
+module arithmetic_right_shifter_tb;
+
+  localparam N = 8;
+
+  arithmetic_right_shifter #(.N(N)) uut (
+    .input_data(input_data),
+    .control(control),
+    .shifted_result(shifted_result)
+  );
+
+  // Complete your testbench here
+  initial begin
+    for(int i = 0; i<10; i++) begin
+      input_data = $urandom;
+      control = $urandom;
+      #15
+      $display("%t\t%d\t%d\t -> %d", $time, input_data, control, shifted_result);
+    end
+    $finish;
+  end 
+endmodule

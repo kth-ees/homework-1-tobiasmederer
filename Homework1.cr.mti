@@ -1,8 +1,78 @@
-C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder.sv
+C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module arithmetic_right_shifter
+
+Top level modules:
+	arithmetic_right_shifter
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module count_1
+
+Top level modules:
+	count_1
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/csa_8.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module csa_8
+
+Top level modules:
+	csa_8
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q6/arithmetic_right_shifter_tb.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module arithmetic_right_shifter_tb
+
+Top level modules:
+	arithmetic_right_shifter_tb
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q4/count_1_tb.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module count_1_tb
+
+Top level modules:
+	count_1_tb
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module bin2bcd
+
+Top level modules:
+	bin2bcd
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/adder_4.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q3/adder_4.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module adder_4
+
+Top level modules:
+	adder_4
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module bin2gray
+
+Top level modules:
+	bin2gray
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q1/decoder.sv
 QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
 -- Compiling module decoder
 
 Top level modules:
 	decoder
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q2/bin2bcd_tb.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module bin2bcd_tb
+
+Top level modules:
+	bin2bcd_tb
+
+} {} {}} C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/tobia/Documents/Studium/Master/Digital_Hardware_Design_and_Verification/homework-1-tobiasmederer/q5/bin2gray_tb.sv
+QuestaSim-64 vlog 2022.4 Compiler 2022.10 Oct 18 2022
+-- Compiling module bin2gray_tb
+
+Top level modules:
+	bin2gray_tb
 
 } {} {}}

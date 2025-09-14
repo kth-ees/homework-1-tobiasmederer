@@ -10,9 +10,9 @@ module csa_8 (
   adder_4 lsb ( //LSB bits 3..0 in first adder
     .A(a[3:0]),
     .B(b[3:0]),
-    .sum(sum[3:0])
+    .sum(sum[3:0]),
     .carry(carry_lsb)
-  )
+  );
 
   logic [3:0] sum_msb_c_in_zero; //sum of msb parts when carry in is zero
   logic carry_msb_c_in_zero; //carry out of the msb adder -> carry out of 8 bit adder

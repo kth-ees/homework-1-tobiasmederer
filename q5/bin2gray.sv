@@ -24,7 +24,7 @@ module bin2gray (
       4'd13 : gray = 4'b1011;
       4'd14 : gray = 4'b1001;
       4'd15 : gray = 4'b1000;
-      default: 4'b0000;
+      default: gray = 4'b0000;
     endcase
   end
 endmodule
