@@ -2,6 +2,21 @@ module arithmetic_right_shifter_tb;
 
   localparam N = 8;
 
-  // complete
-  // Inputs
+  arithmetic_right_shifter #(.N(N)) uut (
+    .input_data(input_data),
+    .control(control),
+    .shifted_result(shifted_result)
+  );
+
+  // Complete your testbench here
+  int maxnum = 2**N;
+  initial begin
+    for(int i = 0; i<10; i++) begin
+      input_data = $urandom_range(0,maxnum-1);
+      control = $urandom_range(0,3);
+      #15
+      $display("%t\t%d\t%d\t -> %d", $time, input_data, control, shifted_result);
+    end
+    $finish;
+  end 
 endmodule

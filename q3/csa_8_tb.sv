@@ -7,5 +7,21 @@ module csa_8_tb;
   logic carry;
 
   // complete
-  
+  // Instantiate the csa_8 module
+  csa_8 uut (
+    .a(a),
+    .b(b),
+    .sum(sum),
+    .carry(carry)
+  );
+
+  initial begin
+    for(int i = 0; i<10; i++) begin
+      a = $urandom_range(0,255);
+      b = $urandom_range(0,255);
+      #15
+      $display("%t\t%d\t%d\t -> %d\t%d", $time, a, b, sum, carry);
+    end
+    $finish;
+  end
 endmodule

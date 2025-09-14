@@ -1,16 +1,14 @@
-module bin2gray_tb;
+'timescale 1ns/1ns
+module decoder_tb;
 
-  // Inputs
+  // Testbench signals
   logic [3:0] binary;
+  logic [15:0] one_hot;
 
-  // Outputs
-  logic [3:0] gray;
-
-  // complete
-  // Instantiate 
-  bin2gray uut (
+  // Instantiate the decoder module
+  decoder uut (
     .binary(binary),
-    .gray(gray)
+    .one_hot(one_hot)
   );
 
   // Complete your testbench here
